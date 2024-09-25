@@ -2,7 +2,7 @@
   "name": "vite-demo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://{trungbnk2000}.github.io/{MyCV}/",
+  "homepage": "https://trungbnk2000.github.io/MyCV/",
   "type": "module",
   "scripts": {
     "dev": "vite",

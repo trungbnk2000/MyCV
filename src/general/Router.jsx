@@ -12,14 +12,6 @@ export const Router = () => (
       path={RoutePaths.HOME}
       element={
         <Layout>
-          <Home />
-        </Layout>
-      }
-    />
-    <Route
-      path="/home"
-      element={
-        <Layout>
           <Main />
         </Layout>
       }
@@ -28,7 +20,7 @@ export const Router = () => (
       path="*"
       element={
         <Layout>
-          <NotFound />
+          <Main />
         </Layout>
       }
     />
