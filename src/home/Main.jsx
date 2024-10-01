@@ -58,10 +58,10 @@ export const Main = () => {
                             trungtran13900@gmail.com</div>
                     </div>
                     <div className="w-full flex justify-center">
-                        <div className="grid grid-cols-2 sm:grid-cols-4 mt-4 gap-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 mt-4 gap-4">
                             <div class="px-2 py-1 bg-violet-50 rounded-[20px] border border-violet-600 justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
                                 <img src={global} />
-                                <div class="text-violet-600 text-[16px] font-semibold font-custom">bnk.dev</div>
+                                <div class="text-violet-600 text-[16px] font-semibold font-custom">0914091973</div>
                             </div>
                             <div class="px-2 py-1 bg-violet-50 rounded-[20px] border border-violet-600 justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
                                 <img src={linkedIn} />
@@ -71,10 +71,10 @@ export const Main = () => {
                                 <img src={gitHub} />
                                 <div class="text-[#222] text-[16px] font-semibold font-custom">trungbnk2000</div>
                             </div>
-                            <div class="px-2 py-1 bg-[#FFF4F1] rounded-[20px] border border-[#F24E1E] justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
+                            {/* <div class="px-2 py-1 bg-[#FFF4F1] rounded-[20px] border border-[#F24E1E] justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
                                 <img src={figma} />
-                                <div class="text-[#F24E1E] text-[16px] font-semibold font-custom">trungbnk2000</div>
-                            </div>
+                                <div class="text-[#F24E1E] text-[16px] font-semibold font-custom">trungbnk21</div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -116,13 +116,17 @@ export const Main = () => {
                                         <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />Sep 2022 - Present</span>
                                     </div>
                                     <div className="flex flex-row justify-start items-center gap-2">
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>Ant Design</span>
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>ReactJs</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>ReactNative</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>React Native</span>
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>CSS/SCSS</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>TailwindCSS</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>JavaScript</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>HTML</span>
                                     </div>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Created main site navigation (mega-menu, mobile drawer) using Tailwind CSS</span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Revamped shopping cart & checkout pages (~18 pages in total)</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Created interfaces for 2 major e-learning platforms using ReactJs, completed more than 100 UIs as well as other features.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Apply Ant Design and React in building features for pages (Client-side and CMS). </span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed mobile applications for each website using React Native. </span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Involved in publishing mobile applications to App Store, Google Play. </span>
                                 </section>
 
                                 <section title='Ciptaloka2'>
@@ -137,10 +141,8 @@ export const Main = () => {
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>HTML</span>
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>CSS</span>
                                     </div>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Redesigned the website's front page from vanilla CSS to use Foundation 6</span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed interactive UI on mobile editor using Framework7, Backbone.js, and Marionette.js</span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Created e-mail marketing design templates using Foundation for E-mails</span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Customized the blog.ciptaloka.com WordPress theme to match the looks and feels of the main site</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Learning to develop back-end with .NET Framework and C#</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Involved in small features in some projects</span>
                                 </section>
                             </div>
                         </div>
