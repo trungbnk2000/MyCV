@@ -86,9 +86,17 @@ export const Main = () => {
                             <div className="flex-none w-full sm:w-1/4 text-title font-bold text-[30px] sm:text-[20px] font-custom dark:text-slate-200">
                                 Education
                             </div>
-                            <div className="flex-1 flex flex-row justify-between items-center">
-                                <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Bachelor Degree <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Posts and Telecommunications Institute of Technology</span></span>
-                                <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />2018 - 2022</span>
+                            <div className="flex-1 flex flex-col gap-2">
+                                <div className="flex flex-row justify-between items-center">
+                                    <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Bachelor Degree (Majoring in Software Development) <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Posts and Telecommunications Institute of Technology. GPA: 3.0+</span></span>
+                                    <span className='text-title font-light text-[16px] font-custom dark:text-slate-200'><img className='inline-block mr-2 mb-1' src={date} />2018 - 2022</span>
+                                </div>
+                                <div className="flex flex-row justify-between items-center">
+                                    <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>IELTS <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Overall Band Score: 7.0</span></span>
+                                </div>
+                                <div className="flex flex-row justify-between items-center">
+                                    <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>TOEIC <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Score: 855</span></span>
+                                </div>
                             </div>
                         </div>
                         <div className="flex border-b border-[#E2E8F0] flex-col sm:flex-row gap-3 sm:gap-0 px-2 sm:px-0 py-10">
@@ -123,9 +131,9 @@ export const Main = () => {
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>JavaScript</span>
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>HTML</span>
                                     </div>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Created interfaces for 2 major e-learning platforms using ReactJs, completed more than 100 UIs as well as other features.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed and deployed highly performant and responsive frontend web applications for 2 major e-learning platforms using ReactJs and Redux, completed more than 100 UIs as well as other features.</span>
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Apply Ant Design and React in building features for pages (Client-side and CMS). </span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed mobile applications for each website using React Native. </span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed mobile applications for projects using React Native. </span>
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Involved in publishing mobile applications to App Store, Google Play. </span>
                                 </section>
 
@@ -156,30 +164,35 @@ export const Main = () => {
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Codemath.vn</span>
                                     </div>
                                     <div className="flex flex-row justify-start items-center gap-2 flex-wrap">
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>React</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Chakra UI</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Express</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>MongoDB</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Redis</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>ReactJs</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>React Native</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Redux</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>HTML/CSS</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Javascript ES6</span>
                                     </div>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, aspernatur ab illum, officia necessitatibus omnis sapiente sit, dignissimos corrupti in enim. Velit, fugit explicabo? Perferendis nemo aliquid similique amet nisi!</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Worked in an Agile team of 3 members.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Collaborated with UX/UI designers, back-end team to improve app features, which led to a significant increase in user retention.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Built responsive web applications with React and optimized for mobile platforms.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Enhanced user experience in iOS/Android applications using React Native.</span>
                                     <br />
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> <img src={toggleDarkmode ? darkStars : stars} /> see all of my projects on my portfolio: <img src={toggleDarkmode ? darkLink : link} /><a className='italic cursor-pointer underline hover:text-blue-400'>bnk.dev/projects</a> </span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> <img src={toggleDarkmode ? darkStars : stars} /><img src={toggleDarkmode ? darkLink : link} /><a href='https://codemath.vn' target='_blank' className='italic cursor-pointer underline hover:text-blue-400'>codemath.vn</a> </span>
                                 </section>
                                 <section title='SPKJS'>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Tiengtrunggioi.vn</span>
                                     </div>
                                     <div className="flex flex-row justify-start items-center gap-2 flex-wrap">
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>React</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Chakra UI</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Express</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>MongoDB</span>
-                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Redis</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>ReactJs</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>React Native</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Redux</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>HTML/CSS</span>
+                                        <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>Javascript ES6</span>
                                     </div>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, aspernatur ab illum, officia necessitatibus omnis sapiente sit, dignissimos corrupti in enim. Velit, fugit explicabo? Perferendis nemo aliquid similique amet nisi!</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Developed and implemented a new front-end architecture using ReactJs and Vite, as well as applying Ant Design, resulting in a 25% increase in page load speed and user engagement.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Utilized Redux for state management, optimized reusable components.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'>- Developed and published iOS application to App Store.</span>
                                     <br />
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> <img src={toggleDarkmode ? darkStars : stars} /> see all of my projects on my portfolio: <img src={toggleDarkmode ? darkLink : link} /><a className='italic cursor-pointer underline hover:text-blue-400'>bnk.dev/projects</a> </span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> <img src={toggleDarkmode ? darkStars : stars} /><img src={toggleDarkmode ? darkLink : link} /><a href='https://tiengtrunggioi.vn' target='_blank' className='italic cursor-pointer underline hover:text-blue-400'>tiengtrunggioi.vn</a> </span>
                                 </section>
                             </div>
 
@@ -231,6 +244,10 @@ export const Main = () => {
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>JavaScript</span>
                                                 </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-1/2 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Swift</span>
+                                                </span>
                                             </div>
                                         </div>
                                         <div className="flex items-center">
@@ -249,6 +266,10 @@ export const Main = () => {
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>Java</span>
+                                                </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Python</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -273,7 +294,7 @@ export const Main = () => {
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Material UI</span>
+                                                    <span className='m-2'>Ant Design</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
@@ -287,44 +308,12 @@ export const Main = () => {
                                             </div>
                                             <div className="flex-1 flex flex-row gap-2 flex-wrap">
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/2 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>React</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/2 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Next.js</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Redux</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Framer Motion</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Webpack</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>WordPress</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Gulp</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Framework 7</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Marionette.js</span>
-                                                </span>
-                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Backbone.js</span>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>React Native</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -334,16 +323,16 @@ export const Main = () => {
                                             </div>
                                             <div className="flex-1 flex flex-row gap-2 flex-wrap">
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Express</span>
+                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>.NET Framework</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Redis</span>
+                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Firebase</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>MongoDB</span>
+                                                    <div class="absolute bottom-0 w-1/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>SQL</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -368,7 +357,11 @@ export const Main = () => {
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>Node.js</span>
+                                                    <span className='m-2'>XCode</span>
+                                                </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Android Studio</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
@@ -382,7 +375,7 @@ export const Main = () => {
                                             </div>
                                             <div className="flex-1 flex flex-row gap-2">
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
-                                                    <div class="absolute bottom-0 w-1/2 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>Figma</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
