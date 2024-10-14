@@ -44,11 +44,11 @@ export const Main = () => {
                 </label>
             </div>
             <div className="bg-cover bg-[url('./assets/images/header-bg.png')] dark:bg-[url('./assets/images/dark-header-bg.png')] ease-in-out duration-500 min-h-[600px] flex flex-col justify-center items-center text-center">
-                <section title="CV-Title">
+                <section>
                     <div class="text-slate-700 text-[50px] sm:text-[60px] md:text-[80px] dark:text-slate-200 font-custom font-bold">Trung Tran</div>
                     <div class="text-slate-500 text-[20px] sm:text-[30px] dark:text-slate-200 font-medium font-custom">Front-End Developer · React Developer</div>
                 </section>
-                <section title="Brief-Information">
+                <section>
                     <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
                         <div class="text-slate-700 dark:text-slate-200 md:text-[20px] font-normal font-custom leading-[20px] inline-flex gap-1 items-center">
                             <img src={toggleDarkmode ? darkLocation : location} />
@@ -61,7 +61,7 @@ export const Main = () => {
                         <div className="grid grid-cols-2 sm:grid-cols-3 mt-4 gap-4">
                             <div class="px-2 py-1 bg-violet-50 rounded-[20px] border border-violet-600 justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
                                 <img src={global} />
-                                <div class="text-violet-600 text-[16px] font-semibold font-custom">0914091973</div>
+                                <div class="text-violet-600 text-[16px] font-semibold font-custom">0914.091.973</div>
                             </div>
                             <div class="px-2 py-1 bg-violet-50 rounded-[20px] border border-violet-600 justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer">
                                 <img src={linkedIn} />
@@ -118,7 +118,7 @@ export const Main = () => {
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Designing and creating React components for the application dashboard</span>
                                 </section> */}
 
-                                <section title='Ciptaloka'>
+                                <section>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>TANDAN.JSC <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Front-End Developer</span></span>
                                         <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />Sep 2022 - Present</span>
@@ -132,12 +132,12 @@ export const Main = () => {
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>HTML</span>
                                     </div>
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed and deployed highly performant and responsive frontend web applications for 2 major e-learning platforms using ReactJs and Redux, completed more than 100 UIs as well as other features.</span>
+                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed mobile applications' features for both CMS and E-learning projects using React Native. </span>
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Apply Ant Design and React in building features for pages (Client-side and CMS). </span>
-                                    <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Developed mobile applications for projects using React Native. </span>
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'><div className="flex-none rounded-[4px] bg-[#CBD5E1] h-[14px] w-[14px]"></div> Involved in publishing mobile applications to App Store, Google Play. </span>
                                 </section>
 
-                                <section title='Ciptaloka2'>
+                                <section>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>TANDAN.JSC <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Intern Software Developer</span></span>
                                         <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />2021 - 2022</span>
@@ -159,7 +159,7 @@ export const Main = () => {
                                 Featured Project
                             </div>
                             <div className="flex-1 flex flex-col gap-6">
-                                <section title='SPKJS'>
+                                <section >
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Codemath.vn</span>
                                     </div>
@@ -177,7 +177,7 @@ export const Main = () => {
                                     <br />
                                     <span className='flex-row flex gap-2 items-center text-title font-normal font-custom text-[18px] dark:text-slate-200'> <img src={toggleDarkmode ? darkStars : stars} /><img src={toggleDarkmode ? darkLink : link} /><a href='https://codemath.vn' target='_blank' className='italic cursor-pointer underline hover:text-blue-400'>codemath.vn</a> </span>
                                 </section>
-                                <section title='SPKJS'>
+                                <section>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>Tiengtrunggioi.vn</span>
                                     </div>
@@ -309,11 +309,19 @@ export const Main = () => {
                                             <div className="flex-1 flex flex-row gap-2 flex-wrap">
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
-                                                    <span className='m-2'>React</span>
+                                                    <span className='m-2'>ReactJS</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>React Native</span>
+                                                </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Restful API</span>
+                                                </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Axios</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -354,6 +362,10 @@ export const Main = () => {
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
                                                     <span className='m-2'>VS Code</span>
+                                                </span>
+                                                <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
+                                                    <div class="absolute bottom-0 w-2/3 h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
+                                                    <span className='m-2'>Visual Studio</span>
                                                 </span>
                                                 <span className='relative bg-slate-100 rounded-[8px] text-slate-500 text-[18px] font-medium font-custom h-[35px] overflow-hidden dark:bg-[#334155] dark:text-[#CBD5E1]'>
                                                     <div class="absolute bottom-0 w-full h-[5px] bg-slate-500/25 rounded-[10px] dark:bg-slate-500/70"></div>
