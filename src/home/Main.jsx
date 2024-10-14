@@ -121,7 +121,7 @@ export const Main = () => {
                                 <section>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>TANDAN.JSC <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Front-End Developer</span></span>
-                                        <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />Sep 2022 - Present</span>
+                                        <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />Sep 2022 - Present (2 yoe+)</span>
                                     </div>
                                     <div className="flex flex-row justify-start items-center gap-2">
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1] ease-in-out duration-500'>Ant Design</span>
@@ -140,7 +140,7 @@ export const Main = () => {
                                 <section>
                                     <div className="flex flex-row justify-between items-center">
                                         <span className='text-title font-bold text-[20px] font-custom dark:text-slate-200'>TANDAN.JSC <span class="text-slate-700 text-[20px] font-normal font-custom dark:text-slate-200">  — Intern Software Developer</span></span>
-                                        <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />2021 - 2022</span>
+                                        <span className='text-title font-light text-[16px] font-custom flex-row flex gap-2 dark:text-slate-200'><img src={date} />2021 - 2022 (1 yoe)</span>
                                     </div>
                                     <div className="flex flex-row justify-start items-center gap-2">
                                         <span className='rounded-[5px] p-1 px-2 bg-[#F1F5F9] text-[#64748B] dark:bg-[#334155] dark:text-[#CBD5E1]'>C#</span>
