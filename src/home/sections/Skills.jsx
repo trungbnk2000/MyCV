@@ -143,7 +143,7 @@ export const Skills = ({ skills }) => {
               <div className="flex-none w-1/4 font-custom text-[#64748B] dark:text-slate-200">
                 Coder related
               </div>
-              <div className="flex-1 flex flex-row gap-2">
+              <div className="flex-1 flex flex-row gap-2 flex-wrap">
                 {skills.tools.coder.map((tool, index) => (
                   <SkillBadge key={index} name={tool.name} proficiency={tool.proficiency} />
                 ))}

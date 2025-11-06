@@ -1,7 +1,7 @@
 export const cvData = {
   personalInfo: {
     name: "Trung Tran",
-    title: "Senior Front-End Developer · React & React Native Specialist",
+    title: "Front-End Developer · React & React Native Specialist",
     location: "Hanoi, Vietnam",
     email: "trungtran13900@gmail.com",
     phone: "0914.091.973"
@@ -34,7 +34,7 @@ export const cvData = {
   experience: [
     {
       company: "TANDAN.JSC",
-      position: "Senior Front-End Developer",
+      position: "Front-End Developer",
       period: "Sep 2022 - Present",
       duration: "2.5+ years",
       technologies: ["ReactJS", "React Native", "Redux Toolkit", "TypeScript", "Ant Design", "Tailwind CSS", "Vite", "Webpack"],
