@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 const SkillBadge = ({ name, proficiency }) => {
   const getProficiencyWidth = () => {
     switch (proficiency) {
@@ -26,7 +28,13 @@ const SkillBadge = ({ name, proficiency }) => {
 
 export const Skills = ({ skills }) => {
   return (
-    <div className="flex border-b border-[#E2E8F0] flex-col sm:flex-row gap-3 sm:gap-0 px-2 sm:px-0 py-10">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+      className="flex border-b border-[#E2E8F0] flex-col sm:flex-row gap-3 sm:gap-0 px-2 sm:px-0 py-10"
+    >
       <div className="flex-none w-full sm:w-1/4 text-title font-bold text-[30px] sm:text-[20px] font-custom dark:text-slate-200">
         Skills & Tools
       </div>
@@ -163,6 +171,6 @@ export const Skills = ({ skills }) => {
           </div>
         </section>
       </div>
-    </div>
+    </motion.div>
   );
 };

@@ -1,8 +1,15 @@
+import { motion } from 'framer-motion';
 import date from '../../assets/svgs/date.svg';
 
 export const Education = ({ education }) => {
   return (
-    <div className="flex border-b border-[#E2E8F0] flex-col gap-3 sm:gap-0 sm:flex-row px-2 sm:px-0 pb-10">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+      className="flex border-b border-[#E2E8F0] flex-col gap-3 sm:gap-0 sm:flex-row px-2 sm:px-0 pb-10"
+    >
       <div className="flex-none w-full sm:w-1/4 text-title font-bold text-[30px] sm:text-[20px] font-custom dark:text-slate-200">
         Education
       </div>
@@ -34,6 +41,6 @@ export const Education = ({ education }) => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
