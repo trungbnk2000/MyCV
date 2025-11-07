@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import location from '../../assets/svgs/location.svg';
 import darkLocation from '../../assets/svgs/dark-location.svg';
 import mail from '../../assets/svgs/mail.svg';
@@ -9,16 +10,24 @@ import gitHub from '../../assets/svgs/gitHub.svg';
 export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
   return (
     <div className="bg-cover bg-[url('./assets/images/header-bg.png')] dark:bg-[url('./assets/images/dark-header-bg.png')] ease-in-out duration-500 min-h-[600px] flex flex-col justify-center items-center text-center">
-      <section>
+      <motion.section
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+      >
         <div className="text-slate-700 text-[50px] sm:text-[60px] md:text-[80px] dark:text-slate-200 font-custom font-bold">
           {personalInfo.name}
         </div>
         <div className="text-slate-500 text-[20px] sm:text-[30px] dark:text-slate-200 font-medium font-custom">
           {personalInfo.title}
         </div>
-      </section>
+      </motion.section>
 
-      <section>
+      <motion.section
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
+      >
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
           <div className="text-slate-700 dark:text-slate-200 md:text-[20px] font-normal font-custom leading-[20px] inline-flex gap-1 items-center">
             <img src={isDarkMode ? darkLocation : location} alt="Location icon" />
@@ -71,7 +80,7 @@ export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
             )}
           </div>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 };
