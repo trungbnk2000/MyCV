@@ -40,7 +40,7 @@ export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
         </div>
 
         <div className="w-full flex justify-center">
-          <div className="grid grid-cols-2 sm:grid-cols-3 mt-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 mt-4 gap-4">
             <a
               href={`tel:${personalInfo.phone}`}
               className="px-2 py-1 bg-violet-50 rounded-[20px] border border-violet-600 justify-center items-center gap-1 inline-flex hover:drop-shadow-xl cursor-pointer"
@@ -51,7 +51,7 @@ export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
               </div>
             </a>
 
-            {socialLinks.linkedin && (
+            {/* {socialLinks.linkedin && (
               <a
                 href={socialLinks.linkedin}
                 target="_blank"
@@ -63,7 +63,7 @@ export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
                   TrungTran
                 </div>
               </a>
-            )}
+            )} */}
 
             {socialLinks.github && (
               <a

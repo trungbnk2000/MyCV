@@ -36,18 +36,17 @@ export const cvData = {
       company: "TANDAN.JSC",
       position: "Front-End Developer",
       period: "Sep 2022 - Present",
-      duration: "2.5+ years",
+      duration: "3.5+ years",
       technologies: ["ReactJS", "React Native", "Redux Toolkit", "TypeScript", "Ant Design", "Tailwind CSS", "Vite", "Webpack"],
       responsibilities: [
-        "Architected and delivered 2 production-ready e-learning platforms serving 50,000+ active users, implementing 100+ responsive UI components with 98% cross-browser compatibility using ReactJS, Redux, and modern CSS frameworks.",
-        "Led front-end performance optimization initiatives achieving 40% faster page load times through code splitting, lazy loading, and bundle size reduction from 2.5MB to 850KB using Webpack and Vite.",
-        "Developed and maintained React Native applications for iOS and Android with 4.5+ star ratings, implementing complex features including offline mode, real-time chat, video streaming, and push notifications.",
-        "Established comprehensive component library and design system using Storybook and Ant Design, reducing development time by 35% and ensuring UI consistency across 8+ projects.",
-        "Implemented advanced state management patterns using Redux Toolkit and Context API, optimizing app performance and reducing unnecessary re-renders by 60%.",
-        "Mentored 3 junior developers on React best practices, code review standards, and modern JavaScript (ES6+), improving team code quality scores from 65% to 90%.",
-        "Successfully published and maintained 2 mobile applications on App Store and Google Play, managing the entire release lifecycle including beta testing, crash analytics, and performance monitoring.",
-        "Integrated RESTful APIs and GraphQL endpoints, implementing robust error handling, request caching, and optimistic UI updates for enhanced user experience.",
-        "Collaborated with UX/UI designers to transform Figma designs into pixel-perfect, accessible interfaces following WCAG 2.1 AA standards."
+        "Built 2 production e-learning platforms serving 50,000+ active users.",
+        "Optimized bundle size from 2.5MB to 850KB, achieving 40% faster page loads.",
+        "Developed React Native apps for iOS & Android, published with 4.5+ star ratings.",
+        "Established a component library with Storybook, cutting development time by 35%.",
+        "Reduced unnecessary re-renders by 60% using Redux Toolkit and Context API.",
+        "Mentored 3 junior developers, raising team code quality scores from 65% to 90%.",
+        "Integrated RESTful APIs and GraphQL with caching and optimistic UI updates.",
+        "Translated Figma designs into pixel-perfect interfaces following WCAG 2.1 AA."
       ]
     },
     {
@@ -57,10 +56,9 @@ export const cvData = {
       duration: "1 year",
       technologies: ["C#", ".NET Framework", "ASP.NET", "SQL Server", "HTML/CSS", "JavaScript"],
       responsibilities: [
-        "Developed full-stack features for internal management systems using C# .NET Framework and ASP.NET MVC, serving 200+ internal users.",
-        "Designed and implemented database schemas and optimized SQL queries, reducing average query execution time by 30%.",
-        "Built responsive admin dashboards using HTML, CSS, and JavaScript with jQuery, improving data visualization and user workflow.",
-        "Participated in Agile ceremonies including daily standups, sprint planning, and retrospectives, contributing to 95% sprint completion rate."
+        "Built full-stack features for internal management systems using C# and ASP.NET MVC.",
+        "Optimized SQL queries, reducing average execution time by 30%.",
+        "Designed responsive admin dashboards with HTML, CSS, and JavaScript."
       ]
     }
   ],
@@ -71,12 +69,12 @@ export const cvData = {
       url: "https://codemath.vn",
       technologies: ["ReactJS", "React Native", "Redux Toolkit", "TypeScript", "Ant Design", "Socket.io", "Jest", "React Testing Library"],
       description: [
-        "Spearheaded front-end development in a cross-functional Agile team of 5 members, delivering a comprehensive e-learning platform with 30,000+ registered users.",
-        "Engineered real-time code editor with syntax highlighting and live collaboration using Monaco Editor and Socket.io, supporting 10+ programming languages.",
-        "Implemented advanced features including progress tracking dashboards, gamification system with badges and leaderboards, and adaptive learning paths based on user performance analytics.",
-        "Optimized mobile app performance achieving 60 FPS animations and reducing memory footprint by 45% through memoization, virtualization, and image optimization techniques.",
-        "Achieved 42% increase in user retention (from 45% to 87%) and 35% improvement in course completion rates through UX enhancements and personalized learning recommendations.",
-        "Maintained 85%+ unit test coverage using Jest and React Testing Library, implementing CI/CD pipeline with automated testing and deployment."
+        "Delivered a comprehensive e-learning platform with 30,000+ registered users.",
+        "Built a real-time code editor with syntax highlighting and live collaboration via Monaco Editor and Socket.io.",
+        "Implemented gamification system with badges, leaderboards, and adaptive learning paths.",
+        "Achieved 60 FPS animations and reduced mobile memory footprint by 45%.",
+        "Increased user retention from 45% to 87% through UX and personalized recommendations.",
+        "Maintained 85%+ unit test coverage with Jest and React Testing Library."
       ],
       featured: true
     },
@@ -85,13 +83,13 @@ export const cvData = {
       url: "https://tiengtrunggioi.vn",
       technologies: ["ReactJS", "React Native", "Redux", "TypeScript", "Vite", "Ant Design", "TailwindCSS", "Firebase"],
       description: [
-        "Architected and migrated legacy codebase to modern React 18 with TypeScript, Vite bundler, and atomic design principles, resulting in 50% faster build times and 25% improvement in page load performance (from 3.2s to 2.4s LCP).",
-        "Designed and implemented scalable component architecture with custom hooks and higher-order components, increasing code reusability by 60% and reducing bundle size by 35%.",
-        "Built feature-rich iOS application using React Native and Expo, successfully published to App Store with 4.6-star rating and 5,000+ downloads within 3 months.",
-        "Integrated advanced learning features including spaced repetition algorithm, voice recognition for pronunciation practice, and AI-powered personalized study plans.",
-        "Implemented comprehensive error tracking with Sentry and analytics with Firebase, reducing production bugs by 70% and enabling data-driven feature decisions.",
-        "Optimized SEO achieving 80% improvement in organic traffic through server-side rendering considerations, semantic HTML, and performance best practices.",
-        "Established automated E2E testing with Cypress covering critical user journeys, increasing deployment confidence and reducing QA time by 40%."
+        "Migrated legacy codebase to React 18, TypeScript, and Vite — cutting build times by 50% and LCP from 3.2s to 2.4s.",
+        "Architected scalable component system with custom hooks, boosting reusability by 60%.",
+        "Published React Native iOS app to App Store with 4.6-star rating and 5,000+ downloads in 3 months.",
+        "Integrated spaced repetition, voice recognition, and AI-powered study plans.",
+        "Set up Sentry and Firebase analytics, reducing production bugs by 70%.",
+        "Improved organic traffic by 80% through semantic HTML and performance optimization.",
+        "Automated E2E tests with Cypress, reducing QA time by 40%."
       ],
       featured: true
     }
