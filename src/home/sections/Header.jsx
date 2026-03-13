@@ -8,7 +8,7 @@ import gitHub from '../../assets/svgs/gitHub.svg';
 
 export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
   return (
-    <div className="bg-cover bg-[url('./assets/images/header-bg.png')] dark:bg-[url('./assets/images/dark-header-bg.png')] ease-in-out duration-500 min-h-[600px] flex flex-col justify-center items-center text-center">
+    <div className="ease-in-out duration-500 min-h-[600px] flex flex-col justify-center items-center text-center">
       <motion.section
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
