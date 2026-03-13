@@ -4,7 +4,6 @@ import darkLocation from '../../assets/svgs/dark-location.svg';
 import mail from '../../assets/svgs/mail.svg';
 import darkMail from '../../assets/svgs/dark-mail.svg';
 import global from '../../assets/svgs/global.svg';
-import linkedIn from '../../assets/svgs/linkedIn.svg';
 import gitHub from '../../assets/svgs/gitHub.svg';
 
 export const Header = ({ personalInfo, socialLinks, isDarkMode }) => {
